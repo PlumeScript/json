@@ -1,0 +1,8 @@
+// json for Plume🪶 - 1.0.0-alpha
+// Copyright © 2026-2026 Erwan Barbedor
+
+let luaDecode = $lua.require(./decode)
+
+decode: macro (String text)
+	$luaDecode($text)
+end
